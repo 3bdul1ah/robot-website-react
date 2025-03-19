@@ -1,0 +1,37 @@
+/* Header Styles */
+.navbar {
+    background-color: #1e1e1e !important; /* Dark gray background */
+    border-bottom: 2px solid #333; /* Slight border for definition */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dcdcdc !important; /* Light gray text */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    filter: brightness(90%); /* Slight dimming for a seamless look */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #dcdcdc !important; /* Light gray links */
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff !important; /* White on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.3); /* Subtle border */
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon visible on dark backgrounds */
+  }
+  
+  
